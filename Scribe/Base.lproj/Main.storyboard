@@ -92,6 +92,10 @@
                             <constraint firstItem="XnI-tp-zcM" firstAttribute="centerY" secondItem="Q6W-8K-pNq" secondAttribute="centerY" id="yZW-QG-UHc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activitySpinner" destination="XnI-tp-zcM" id="bH7-7f-vp3"/>
+                        <outlet property="transcriptionTextField" destination="7B1-A1-y7y" id="Uex-zl-BNh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -50,8 +50,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func plyBtnPressed(_ sender: Any) {
-        
+        activitySpinner.isHidden = false
+        activitySpinner.startAnimating()
+        requestSpeechAuth()
     }
+    
 
 }
 

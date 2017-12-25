@@ -50,6 +50,9 @@
                                         <real key="value" value="30"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="plyBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xC0-C7-zXN"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="95P-MA-HTR">
                                 <rect key="frame" x="104.5" y="615" width="166.5" height="27.5"/>

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -64,8 +65,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="flb-Ar-iXK" secondAttribute="bottom" id="JW4-Pr-CrX"/>
+                                    <constraint firstItem="flb-Ar-iXK" firstAttribute="top" secondItem="95P-MA-HTR" secondAttribute="top" id="Qfh-qq-Nwb"/>
+                                </constraints>
                             </stackView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Tap the button below to transcribe the audio embedded in this app." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7B1-A1-y7y">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Tap the button below to transcribe the audio embedded in this app." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7B1-A1-y7y">
                                 <rect key="frame" x="16" y="75" width="343" height="452"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -86,12 +91,14 @@
                             <constraint firstItem="fh9-A2-oHY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3wj-vr-4I8"/>
                             <constraint firstItem="Q6W-8K-pNq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MsZ-0e-zhc"/>
                             <constraint firstItem="fh9-A2-oHY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ubf-nC-epu"/>
+                            <constraint firstItem="7B1-A1-y7y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ZaK-LU-G1R"/>
                             <constraint firstItem="95P-MA-HTR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jwg-O0-Wk6"/>
                             <constraint firstItem="XnI-tp-zcM" firstAttribute="centerX" secondItem="Q6W-8K-pNq" secondAttribute="centerX" id="p5I-S5-Kj2"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="95P-MA-HTR" secondAttribute="bottom" constant="24.5" id="pKc-Ag-MR7"/>
                             <constraint firstItem="Q6W-8K-pNq" firstAttribute="top" secondItem="7B1-A1-y7y" secondAttribute="bottom" constant="20" id="q0X-jG-5Fd"/>
                             <constraint firstItem="95P-MA-HTR" firstAttribute="top" secondItem="Q6W-8K-pNq" secondAttribute="bottom" constant="8" id="qT9-s1-aEh"/>
                             <constraint firstItem="7B1-A1-y7y" firstAttribute="top" secondItem="fh9-A2-oHY" secondAttribute="bottom" constant="20" id="rx3-43-yEr"/>
+                            <constraint firstItem="7B1-A1-y7y" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="yYL-ky-vQd"/>
                             <constraint firstItem="XnI-tp-zcM" firstAttribute="centerY" secondItem="Q6W-8K-pNq" secondAttribute="centerY" id="yZW-QG-UHc"/>
                         </constraints>
                     </view>

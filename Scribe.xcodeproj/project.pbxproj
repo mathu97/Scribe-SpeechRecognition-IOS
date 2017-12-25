@@ -12,6 +12,7 @@
 		821DB2901FEF743F00E0F70D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821DB28E1FEF743F00E0F70D /* Main.storyboard */; };
 		821DB2921FEF743F00E0F70D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821DB2911FEF743F00E0F70D /* Assets.xcassets */; };
 		821DB2951FEF743F00E0F70D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821DB2931FEF743F00E0F70D /* LaunchScreen.storyboard */; };
+		823AD4241FF0AAF600D1CBA4 /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 823AD4231FF0AAF600D1CBA4 /* test.m4a */; };
 		82984BEF1FEF7DC90003116B /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82984BEE1FEF7DC90003116B /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		821DB2911FEF743F00E0F70D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		821DB2941FEF743F00E0F70D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		821DB2961FEF743F00E0F70D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		823AD4231FF0AAF600D1CBA4 /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 		82984BEE1FEF7DC90003116B /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		821DB2891FEF743F00E0F70D /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				82984BF11FF0A8170003116B /* Resources */,
 				82984BEB1FEF7D6B0003116B /* Model */,
 				82984BEC1FEF7D720003116B /* View */,
 				82984BED1FEF7D800003116B /* Controller */,
@@ -89,6 +92,14 @@
 				821DB28C1FEF743F00E0F70D /* ViewController.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		82984BF11FF0A8170003116B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				823AD4231FF0AAF600D1CBA4 /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				823AD4241FF0AAF600D1CBA4 /* test.m4a in Resources */,
 				821DB2951FEF743F00E0F70D /* LaunchScreen.storyboard in Resources */,
 				821DB2921FEF743F00E0F70D /* Assets.xcassets in Resources */,
 				821DB2901FEF743F00E0F70D /* Main.storyboard in Resources */,
@@ -293,6 +305,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3GL338SD7Q;
 				INFOPLIST_FILE = Scribe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mathusan.Scribe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,6 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3GL338SD7Q;
 				INFOPLIST_FILE = Scribe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.mathusan.Scribe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
